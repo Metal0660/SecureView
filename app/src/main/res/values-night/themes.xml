@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SecureView" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Base application theme. -->
+        <item name="colorPrimary">@color/my_primary</item>
+        <item name="colorPrimaryVariant">@color/my_primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary Brand color -->
+        <item name="colorSecondary">@color/my_secondary</item>
+        <item name="colorSecondaryVariant">@color/my_secondary</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="ThemeOverlay.SecureView.FullscreenContainer" parent="">
+        <item name="fullscreenBackgroundColor">@color/light_blue_900</item>
+        <item name="fullscreenTextColor">@color/light_blue_A400</item>
+    </style>
+</resources>
